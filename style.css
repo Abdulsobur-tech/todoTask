@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(15, 14, 14);
+}
+
+form input{
+    width: 200px;
+    margin-left: 30px;
+    margin: 50px;
+    height: 20px;
+    border-bottom: rgb(99, 87, 87) solid;
+    border-radius: 5px;
+
+}
+
+
+div{
+   
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+div #dano{
+    background: rgb(78, 77, 77);
+    padding-left: 0px;
+    width: 200px;
+    height: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+
+div #brush{
+    background: rgb(78, 77, 77);
+    margin-left: 0px;
+    width: 200px;
+    height: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    padding-left: 0px;
+}
+
+body div #bama{
+    background: rgb(78, 77, 77);
+    margin-left: 0px;
+    width: 150%;
+    height: 10px;
+    float: left;
+    display: flex;
+    position:relative; left:30rem; top:2px;
+    border-radius: 5px;
+    color: rgb(48, 45, 45);
+}
+.book{
+    background: rgb(31, 31, 31);
+    margin: 0px;
+    height: 100rem;
+    width: 22%;
+
+}
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width:900px){
+    
+    .book{
+        background: rgb(31, 31, 31);
+        margin: 0px;
+        height: 130px;
+        width: 100%;
+    
+    }
+    form input{
+        width: 200px;
+        margin-left: 0px;
+        margin: 10px;
+        height: 20px;}
+
+            
+}
